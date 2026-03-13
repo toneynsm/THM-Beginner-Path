@@ -9,6 +9,6 @@
 - find = find specific files without repetitive **ls** and/or **cat** use\
 can be refined with -name for specific file name within a directory
 - grep = search contents of a file for specific variables (i.e. keywords, prefixes, etc.)\
--grep "VARIABLE" *file-example.txt*\
+grep "VARIABLE" *file-example.txt*\
 can be refined with **-R** to search for variable across ALL files within a directory and it's subdirectories\
--grep -R "VARIABLE" */directory/example/location* (basically saying "find me any string containing this specific variable in it")
+grep -R "VARIABLE" */directory/example/location* (basically saying "find me any string containing this specific variable in it")
