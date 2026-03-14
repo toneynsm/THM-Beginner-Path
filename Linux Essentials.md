@@ -14,3 +14,10 @@ can be refined with **-R** to search for variable across ALL files within a dire
 grep -R "VARIABLE" */directory/example/location* (basically saying "find me any string containing this specific variable in it")
 - wget = get something from server??
 - python3 -m  http.server = start a file server
+- ps = show running processes (processes are the session programs running on your device)\
+ps aux = show processes running for *other* users and system processes (i.e. the ones that don't run from a session)
+- top = real-time session stats
+- kill = kill command\
+SIGTERM - Kill the process, but allow it to do some cleanup tasks beforehand\
+SIGKILL - Kill the process - doesn't do any cleanup after the fact\
+SIGSTOP - Stop/suspend a process\
