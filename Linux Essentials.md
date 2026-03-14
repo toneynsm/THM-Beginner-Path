@@ -12,3 +12,5 @@ can be refined with -name for specific file name within a directory
 grep "VARIABLE" *file-example.txt*\
 can be refined with **-R** to search for variable across ALL files within a directory and it's subdirectories\
 grep -R "VARIABLE" */directory/example/location* (basically saying "find me any string containing this specific variable in it")
+- wget = get something from server??
+- python3 -m  http.server = start a file server
