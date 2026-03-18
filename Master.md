@@ -10,3 +10,8 @@ Once your computer gets the IP back, your router forwards your traffic and you'r
 ## Cryptography
 - XOR means "exclusive one or the other" and the ⊕ symbol in XOR equations can basically be read as "different than?", in reference to the comparable bits
 - Modulo is quite simple so far: 90 % 11 = 2 ... because 11 fits into 90 8 times (88) leaving a remainder of 2 from the original value of 90
+
+## Hashing
+- Rainbow tables are basically just massive tables with passwords corresponding to particular hashes (assuming an attacker even knew what the hashes were)\
+Salting significantly reduces the effectivity of rainbow tables
+
